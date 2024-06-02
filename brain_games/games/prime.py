@@ -19,3 +19,4 @@ def generate_question():
         return num1, 'yes'
     else:
         return num1, 'no'
+    

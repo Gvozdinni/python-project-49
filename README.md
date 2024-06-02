@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Gvozdinni/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Gvozdinni/python-project-49/actions)
 ### Maintainability Badge:
-<a href="https://codeclimate.com/github/Gvozdinni/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/ab826fe5dfc40af0b666/maintainability" /></a>
+<a href="https://codeclimate.com/github/Gvozdinni/git-commits/maintainability"><img src="https://api.codeclimate.com/v1/badges/df7761d67775a16cc91a/maintainability" /></a>
 ____
 ## Description
 PET project which describes a few simple games below is a demonstration.
