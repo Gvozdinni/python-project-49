@@ -14,7 +14,7 @@ def start_game(game):
             x += 1
             continue
         elif user_answer != correct_answer:
-            print(f"""{answer} is wrong answer ;(. Correct answer was {correct_answer}.
+            print(f"""{user_answer} is wrong answer ;(. Correct answer was {correct_answer}.
 Let's try again, {name}!""")
             break
     else:
