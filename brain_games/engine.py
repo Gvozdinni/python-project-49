@@ -7,36 +7,20 @@ def start_game(game):
     x = 0
     while x < 3:
         question, correct_answer = game.generate_question()
-        get_question(question)
+        print(f'Question: {question}')
         user_answer = get_answer()
         if user_answer == str(correct_answer):
-            print_correct()
+            print('Correct!')
             x += 1
             continue
         elif user_answer != correct_answer:
-            print_wrong_answer(user_answer, name, correct_answer)
+            print(f"""{answer} is wrong answer ;(. Correct answer was {correct_answer}.
+Let's try again, {name}!""")
             break
     else:
-        print_congratulate(name)
-
-
-def get_question(n):
-    print(f'Question: {n}')
+        print(f'Congratulations, {name}!')
 
 
 def get_answer():
     answer = input('Your answer: ')
     return answer
-
-
-def print_wrong_answer(answer, name, correct_answer):
-    print(f"""{answer} is wrong answer ;(. Correct answer was {correct_answer}.
-Let's try again, {name}!""")
-
-
-def print_correct():
-    print('Correct!')
-
-
-def print_congratulate(name):
-    print(f'Congratulations, {name}!')
