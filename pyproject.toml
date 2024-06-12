@@ -7,6 +7,8 @@ readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+repository = "https://github.com/python-poetry/poetry"
+classifiers = ['Development Status :: 4 - Beta']
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
